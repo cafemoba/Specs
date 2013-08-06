@@ -1,11 +1,10 @@
 Pod::Spec.new do |s|
   s.name         = "AppInsight"
   s.version      = "2.5.0"
-  s.summary      = "AppInsight is a usage tracking and reporting framework."
-  s.description  = <<-DESCRIPTION
+  s.summary      = <<-SUMMARY
                     cafe moba for App Insight is a lightweight logging & tracking library that provides app developers a customizable way to access, analyze, and visualize the ways users interact with their apps.
 
-                    DESCRIPTION
+                    SUMMARY
   s.homepage     = "http://appinsight.cafemoba.com"
   s.license      = { :type => 'BSD',
                       :text => <<-LICENSE
